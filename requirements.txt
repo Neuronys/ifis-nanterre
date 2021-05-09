@@ -1,7 +1,7 @@
-streamlit
-sentence-transformers
-Pillow
-scikit-learn
-scipy
-numpy
-pysbd
+streamlit==0.78.0
+sentence-transformers==1.0.3
+Pillow==8.1.0
+scikit-learn==0.24.1
+scipy==1.6.1
+numpy==1.20.1
+pysbd==0.3.4
