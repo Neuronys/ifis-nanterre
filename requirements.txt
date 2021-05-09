@@ -1,0 +1,7 @@
+streamlit
+sentence-transformers
+Pillow
+scikit-learn
+scipy
+numpy
+pysbd

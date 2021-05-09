@@ -1,4 +1,4 @@
-import spacy
+#import spacy
 from sentence_transformers import SentenceTransformer, util
 from sklearn.cluster import KMeans
 #from sklearn.cluster import AgglomerativeClustering
@@ -6,9 +6,9 @@ from scipy.sparse.csgraph import connected_components
 import numpy as np
 import pysbd
 import streamlit as st
-from string import punctuation
-from spacy.lang.fr.stop_words import STOP_WORDS
-from string import punctuation
+#from string import punctuation
+#from spacy.lang.fr.stop_words import STOP_WORDS
+#from string import punctuation
 
 
 
