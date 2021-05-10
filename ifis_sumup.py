@@ -155,9 +155,9 @@ def hl1(raw_text, ratio, highlighter = ['<b>','</b>']):
     hl = []
     mess = "indices:"
     for i in most_central_sentence_indices[:rc]:
-        #mess =  mess + str(most_central_sentence_indices[i]) + ","
+        mess =  mess + str(most_central_sentence_indices[i]) + ","
         hl.append(most_central_sentence_indices[i])
-    #st.code(mess)
+    st.code(mess)
 
     highlighted = []
     for i in range(nb_sentences):
@@ -249,6 +249,11 @@ def hl2(raw_text, ratio, nb_clusters = 0, highlighter = ['<b>','</b>']):
             for i in range(l):
                 args.append(ordered_ids[j][i])
     sorted_values = sorted(args)
+
+    mess = "indices:"
+    for i in range (len(sorted_values)):
+        mess =  mess + str(sorted_values[i]) + ","
+    st.code(mess)
 
     highlighted = []
     for i in range(nb_sentences):
